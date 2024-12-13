@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EDEFEE;
+    font-family: 'Markazi text', serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+    padding-bottom: 20px;
+    color: #FFF;
+    text-shadow: 1px 1px 20px #000;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+header img {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    max-width: 40%;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+    border-radius: 10px;
+    margin: auto;
+    
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: #EDEFEE;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+section {
+    display: flex;
+
+
+}
+
+.first-section {
+    background-image: url("./pexels-enginakyurt-1437267.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+    justify-content: space-evenly;
+    
+}
+
+
+.first-section p {
+    max-width: 60%;
+    font-size: 1.3rem;
+    color: #FFF;
+    text-shadow: 2px 2px 20px #000;
+}
+
+.images-article {
+    max-width: 99%;
+    margin-bottom: 10px;
+}
+
+.last-article {
+    margin-right: 0;
+}
+
+
+
+article {
+    flex: 1;
+    padding: 20px 20px 0 20px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    background-color: rgb(255, 234, 207);
+    margin-right: 10px;
+    
+}
+
+article p {
+margin-bottom: 25px;
+}
+
+
+button {
+    background-color: rgb(51, 51, 51);
+    font-size: 1rem;
+    border: rgb(51, 51, 51) 10px solid;
+    border-radius: 15px;
+    color: #FFF;
+    padding: 2px;
+
+}
+.button-article {
+    text-align: left;
+}
+
+.hours{
+    font-size: 1.2rem;
+    max-width: 35%;
+    text-align: left;
+    margin: auto;
+}
+
+
+footer {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    
+}
+
+footer img {
+    max-width: 7%;
+}
+
+.copyright {
+    border-top: 2px solid rgb(51, 51, 51);
+    padding-left: 40%;
+    text-align: left;
+    
+}
+
+footer p {
+    text-align: left;
+    white-space: nowrap;
+}
+
+@media all and (max-width: 900px){
+    
+    header img{
+        max-width: 75%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    nav a {
+        font-size: 1.9rem;
+    }
+
+    .first-section p {
+        max-width: 90%;
+    }
+
+    article {
+        margin: auto;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        
+    }
+
+    article p {
+        font-size: 1.5rem;
+    }
+
+    .button-article {
+        text-align: right;
+    }
+
+    .hours{
+        max-width: 200px;
+    }
+
+    footer img {
+        max-width: 50px;
+    }
+
+    .copyright {
+        padding-left: 40%;
+        margin-left: auto;
+    }
+  
+  
+}
